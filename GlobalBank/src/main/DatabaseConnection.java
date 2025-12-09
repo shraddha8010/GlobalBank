@@ -5,7 +5,7 @@ import java.sql.*;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/globalbank";
     private static final String USER = "root";
-    private static final String PASSWORD = "Tushar@45";
+    private static final String PASSWORD = "YourPassword";
 
     public static Connection getConnection() {
         Connection conn = null;
@@ -20,3 +20,4 @@ public class DatabaseConnection {
         return conn;
     }
 }
+
